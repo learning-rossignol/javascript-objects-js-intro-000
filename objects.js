@@ -1,5 +1,5 @@
 
-var playlist = {'Mozart': ["Symphony 40"]}
+var playlist = {}
 
 function updatePlaylist(k, v) {
   playlist[k] = v;
