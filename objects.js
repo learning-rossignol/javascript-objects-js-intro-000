@@ -2,6 +2,6 @@
 var playlist = {'Mozart': ["Symphony 40"]}
 
 function updatePlaylist(k, v) {
-  playlist.delete( 'Mozart');
+  delete playlist['Mozart'];
   playlist[k] = v;
 }
